@@ -1,0 +1,118 @@
+.base-container{
+    background: #f1f7fc;
+    padding: 0px 0;
+    margin: 50px 100px 0px 100px;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    max-width: 100%
+
+}
+
+.col-lg-6.form{
+    display: table;
+    max-width: 1200px;
+    width: 100%;
+    min-height: 500px;
+   
+   
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+    border-radius: 30px;
+
+}
+
+form{
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px 50px;
+    color: #505e6c;
+}
+
+.fa-long-arrow-alt-left{
+    color: #f8b609;
+}
+
+.col-lg-6 .form .header h2{
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+form .login-icon .fa-google{
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+form .login-icon .fa-facebook-f{
+    color: #4285f4;
+
+}
+
+form .form-group .form-control{
+    border: groove;
+    width: 100%;
+    border-bottom: 1px solid #dfe7f1;
+    border-radius: 25px;
+    box-shadow: none;
+    outline: none;
+    color: inherit;
+    text-indent: 6px;
+    height: 40px;
+}
+
+form .form-group .form-check{
+    font-size: 12px;
+    line-height: 20px;
+    margin-right:10px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+form .form-group .form-check a{
+    color:#000000;
+}
+
+.btn{
+    background: #f8b609;
+    border: none;
+    border-radius: 20px;
+    padding: 11px;
+    box-shadow: none;
+    margin-top: 5px;
+    text-shadow: none;
+    outline: none !important;
+    width: 100%;
+}
+
+.btn:hover, .btn:active{
+    background: #58595b;
+    text-decoration: underline #f8b609;
+}
+
+.btn:active{
+    transform: translateY(1px);
+}
+
+.footer .already{
+    display: block;
+    text-align: left;
+    font-size: 15px;
+    color: #6f7a85;
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+.footer .already a{
+    color: #f8b609;
+    text-decoration: none;
+}
+
+.footer .already a:hover{
+    text-decoration: underline ;
+}
+.image{
+    width: 700px;
+    background-size: 140%;
+}
